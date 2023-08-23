@@ -368,6 +368,11 @@ PRODUCT_PACKAGES += \
     SystemUIOverlaySM8350 \
     WifiOverlaySM8350
 
+# Optimize
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    Settings
+
 # Partitions
 PRODUCT_PACKAGES += \
     vendor_bt_firmware_mountpoint \
